@@ -1,0 +1,115 @@
+/* Page elements */
+
+	body { 
+		margin: ;
+		height: ;
+		font-family: Calibri, sans-serif;
+		font-size: 1em;
+		background: url(Background_Light_Tile_Smaller.jpg) #241b20 repeat fixed;
+		}
+
+	img.banner {
+		width: 75%;
+		max-width: ;
+		margin: 2em 0 2em 0;
+		border: ;
+		padding: ;
+		}
+
+	/* card with shadow */
+
+	 div.card {
+	  	width: 250px;
+  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  		text-align: center;
+  		}
+
+  	/* top banner container */
+
+	.container {
+		width: 50%;
+		max-width: ;
+		margin: 0 auto;
+		background: ;
+		}
+
+	/* background column */
+
+	.content-column-wrapper {
+		width: 85%;
+		min-height: calc(100vh);
+		margin: -1em auto 0 auto;
+		padding: ;
+		background: rgba(255, 235, 245, 0.5);
+		}
+
+	/* main content container */
+
+	.content-column {
+		width: 75%;
+		min-height: calc(100vh);
+		margin: 0 auto;
+		padding: ;
+		border-radius: ;
+		background: rgba(255, 255, 255, 0.75);
+		}
+
+	/* navigation menu and flex box*/
+
+	.flex-container {
+		width: 75%;
+		margin: 0 auto;
+		padding: ;
+  		display: flex;
+  		flex-wrap: nowrap;
+  		background-color: rgba(255, 235, 245, 0.5);
+  		border-radius: 5px 5px 0px 0px;
+  		}
+
+  	.flex-container > div {
+  		background-color: #fff;
+ 		width: 25%;
+  		margin: .5em;
+ 		text-align: center;
+ 		line-height: 2em;
+ 		border-radius: 5px;
+ 		transition: .3s;
+  		font-size: ;
+  		}
+
+  	.flex-container > div:hover {
+  		opacity: 1;
+  		cursor: pointer;
+  		transition: .3s ease-in-out;
+  		box-shadow: 0px 1px 5px rgba(237, 145, 172, 1);
+  		}
+
+/* Text elements */
+
+	.center-align {
+		text-align: center;
+		}
+
+	p {
+		padding: 0;
+		margin: 1em;
+		color: #1a1a1a ;
+	}
+
+	h1 {
+		padding: 1em;
+		margin: 0;
+		font-size: 3em;
+	}
+
+	a {
+		color: #ed91ac;
+		text-decoration: none;
+		text-transform: lowercase;
+		}
+
+	a:hover {
+		color: ;
+	}
+
+
