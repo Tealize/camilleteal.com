@@ -16,13 +16,35 @@
 		padding: ;
 		}
 
-	/* card with shadow */
+	/* card with drop shadow */
 
-	 div.card {
-	  	width: 250px;
-  		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  		text-align: center;
-  		}
+	.cardimage {
+		width: 70%;
+		opacity: 1;
+		transition: .5s ease;
+		backface-visibility: hidden;
+			-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+			-moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+			-webkit-transition-duration: 0.2s;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+		box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
+		border-radius: 5px;
+		margin-bottom: ;
+		margin-left: 0 auto;
+		}
+
+	/* 	caption div container */
+
+	.caption {
+		width: 69%;
+		max-width: ;
+		margin: 0 auto;
+		border-radius: 5px;
+		padding: 5px;
+		margin-bottom: 20px;
+		background: white;
+		}
 
   	/* top banner container */
 
