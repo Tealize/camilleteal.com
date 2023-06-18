@@ -1,8 +1,5 @@
-/* Page elements hello */
-
+/* page elements hello */
 	body { 
-		margin: ;
-		height: ;
 		font-family: Calibri, sans-serif;
 		font-size: 1em;
 		background: url(Background_Light_Tile_Smaller.jpg) #241b20 repeat fixed;
@@ -10,14 +7,76 @@
 
 	img.banner {
 		width: 75%;
-		max-width: ;
 		margin: 2em 0 2em 0;
-		border: ;
-		padding: ;
 		}
 
-	/* card with drop shadow */
+	img.portrait {
+		width: 20%;
+		position: relative;
+		float: left;
+		margin: 1em;
+		margin-right: 2em;
+	}
 
+	img.socials {
+		width: 5%;
+		max-width: 50px;
+		height: 5%;
+		max-height: 50px;
+		margin: .5em;
+	}
+
+  	/* top banner container */
+	  .bannercontainer {
+		max-width: 450px;
+		min-width: 200px;
+		width: 50%;
+		display: inline;
+		float: left;
+		margin: -1em 0 -5em -2em;
+		}
+
+	/* mid-level column */
+	.content-column-wrapper {
+		width: 95%;
+		min-height: calc(100vh);
+		margin: -1em auto 0 auto;
+		background: rgba(255, 235, 245, 0.5);
+		}
+
+	/* foreground column container */
+	.content-column {
+		box-sizing: border-box;
+		width: 90%;
+		min-height: calc(100vh);
+		margin: 0 auto;
+		background: rgba(255, 255, 255, 0.75);
+		}
+
+	/* navigation menu and flex box*/
+	.flex-container {
+		width: 100%;
+		margin: 0 auto;
+  		flex-wrap: nowrap;
+  		background-color: rgba(255, 235, 245, 0.5);
+  		}
+
+	div.flex-container > a {
+		color: rgb(112, 78, 95);
+		text-decoration: none;
+		display: inline;
+		float: right;
+		width: 12%;
+		text-align: center;
+		line-height: 2em;
+		transition: .3s ease-in-out;	
+		}
+
+	div.flex-container > a:hover {
+		background-color: rgba(255, 255, 255, 0.5); 
+	}
+
+	/* card with drop shadow */
 	.cardwrapper {
 		position: relative;
 		}
@@ -32,117 +91,55 @@
 			-webkit-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
 			-moz-box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
 			-webkit-transition-duration: 0.2s;
-			-webkit-border-radius: 5px;
-			-moz-border-radius: 5px;
 		box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
-		border-radius: 5px;
-		margin-bottom: ;
 		margin-left: 0 auto;
-/*		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%)
-*/
 		}
 
 	/* 	caption div container */
-
 	.caption {
-		width: 69%;
-		max-width: 500px;
-		margin: 0 auto;
-		border-radius: 5px;
-		padding: 5px;
-		margin-bottom: 20px;
+		box-sizing: border-box;
+		width: 100%;
 		background: white;
+		padding: 1em;
 		}
 
-  	/* top banner container */
-
-	.container {
-		width: 50%;
-		max-width: ;
-		margin: 0 auto;
-		background: ;
-		}
-
-	/* background column */
-
-	.content-column-wrapper {
-		width: 85%;
-		min-height: calc(100vh);
-		margin: -1em auto 0 auto;
-		padding: ;
-		background: rgba(255, 235, 245, 0.5);
-		}
-
-	/* main content container */
-
-	.content-column {
-		width: 75%;
-		min-height: calc(100vh);
-		margin: 0 auto;
-		padding: ;
-		border-radius: ;
-		background: rgba(255, 255, 255, 0.75);
-		}
-
-	/* navigation menu and flex box*/
-
-	.flex-container {
-		width: 75%;
-		margin: 0 auto;
-		padding: ;
-  		display: flex;
-  		flex-wrap: nowrap;
-  		background-color: rgba(255, 235, 245, 0.5);
-  		border-radius: 5px 5px 0px 0px;
-  		}
-
-  	.flex-container > div {
-  		background-color: #fff;
- 		width: 25%;
-  		margin: .5em;
- 		text-align: center;
- 		line-height: 2em;
- 		border-radius: 5px;
- 		transition: .3s;
-  		font-size: ;
-  		}
-
-  	.flex-container > div:hover {
-  		opacity: 1;
-  		cursor: pointer;
-  		transition: .3s ease-in-out;
-  		box-shadow: 0px 1px 5px rgba(237, 145, 172, 1);
-  		}
-
-/* Text elements */
-
+/* text elements */
 	.center-align {
 		text-align: center;
 		}
 
+	.left-align {
+		text-align: left;
+		}
+
 	p {
-		padding: 0;
-		margin: 1em;
+		overflow: hidden;
+		font-size: 1.25em;
+		padding: 1em;
+		padding-left: ;
+		margin: 0;
 		color: #1a1a1a ;
-	}
+		}
 
 	h1 {
-		padding: 1em;
+		padding: .5em;
 		margin: 0;
 		font-size: 3em;
+		}
+
+	h2 {
+		margin-top: 0;
+		font-size: 1.5em;
 	}
 
 	a {
-		color: #ed91ac;
+		color: rgb(192, 102, 147);
 		text-decoration: none;
 		text-transform: lowercase;
 		}
 
 	a:hover {
-		color: ;
-	}
+		color: rgb(218, 141, 179);
+		}
 
 
