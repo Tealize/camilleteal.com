@@ -2,13 +2,17 @@
 	body { 
 		font-family: Calibri, sans-serif;
 		font-size: 1em;
-		background: url(Background_Light_Tile_Smaller.jpg) #241b20 repeat fixed;
+		background: url(Background_Light_Tile_Smaller.jpg) rgba(36, 27, 32, 1) repeat fixed;
 		}
 
-	img.banner {
+	img.logo {
 		width: 75%;
 		margin: 2em 0 2em 0;
 		}
+
+	img.banner {
+		width: 100%;
+	}
 
 	img.portrait {
 		width: 20%;
@@ -27,31 +31,57 @@
 	}
 
   	/* top banner container */
-	  .bannercontainer {
+	.logocontainer {
 		max-width: 450px;
 		min-width: 200px;
 		width: 50%;
 		display: inline;
 		float: left;
 		margin: -1em 0 -5em -2em;
-		}
+	}
+
+	/* banner under nav */
+	.bannercontainer {
+		width: 100%;
+		max-height: 200px;
+		overflow: hidden;
+	}
+
+	/* pull quotes */
+	.pullquotecontainer {
+		width: 100%;
+		max-height: 200px;
+		position: relative;
+		text-align: center;
+	}
+
+	p.pullquote {
+		color: rgba(255, 255, 255, 1);
+		font-family: serif;
+		font-size: 2.5em;
+		text-shadow: 1px 1px 2px rgba(46, 34, 40, 0.9);
+		position: absolute;
+		top: 100px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 
 	/* mid-level column */
 	.content-column-wrapper {
-		width: 95%;
+		width: 99%;
 		min-height: calc(100vh);
 		margin: -1em auto 0 auto;
 		background: rgba(255, 235, 245, 0.5);
-		}
+	}
 
 	/* foreground column container */
 	.content-column {
 		box-sizing: border-box;
-		width: 90%;
+		width: 98%;
 		min-height: calc(100vh);
 		margin: 0 auto;
 		background: rgba(255, 255, 255, 0.75);
-		}
+	}
 
 	/* navigation menu and flex box*/
 	.flex-container {
@@ -73,7 +103,7 @@
 		}
 
 	div.flex-container > a:hover {
-		background-color: rgba(255, 255, 255, 0.5); 
+		background-color: rgba(236, 199, 216, 0.25); 
 	}
 
 	/* card with drop shadow */
@@ -103,7 +133,22 @@
 		padding: 1em;
 		}
 
-/* text elements */
+	/* footer bar */
+	.footer {
+		max-height: 50px;
+		box-sizing: border-box;
+		width: 100%;
+		background: rgba(36, 27, 32, 1);
+	}
+
+	p.footer {
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255, 235, 245, 0.5);
+	}
+	
+	
+	/* text elements */
 	.center-align {
 		text-align: center;
 		}
@@ -116,7 +161,6 @@
 		overflow: hidden;
 		font-size: 1.25em;
 		padding: 1em;
-		padding-left: ;
 		margin: 0;
 		color: #1a1a1a ;
 		}
